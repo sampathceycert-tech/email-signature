@@ -1,11 +1,19 @@
+import SignatureForm from "./components/SignatureForm";
+import SignaturePreview from "./components/SignaturePreview";
+import "./styles/EmailSignature.css";
+
+
 function App() {
 
   return (
-    <div>
-      <h1>CeyCert Email Signature Generator</h1>
-      <p>Building with React 🚀</p>
+    <div className="wrapper">
+
+      <SignatureForm />
+
+      <SignaturePreview />
+
     </div>
-  )
+  );
 
 }
 
